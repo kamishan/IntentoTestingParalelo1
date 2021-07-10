@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Open Firefox" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-07-10T07:11:33" hostname="LAPTOP-S126D5A7" time="23.278">
+  <properties/>
+  <testcase name="Open Firefox" classname="Open Firefox" time="23.278"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[1625901093301	geckodriver	INFO	Listening on 127.0.0.1:19233
+1625901093735	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\kamis\\AppData\\Local\\Temp\\rust_mozprofileszHikx"
+1625901094173	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kamis\\AppData\\Local\\Temp\\rust_mozprofileszHikx\\search.json.mozlz4", (void 0)))
+1625901096303	Marionette	INFO	Listening on port 7617
+1625901096396	Marionette	WARN	TLS certificate errors will be ignored for this session
+jul 10, 2021 2:11:36 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+]]></system-err>
+</testsuite>
